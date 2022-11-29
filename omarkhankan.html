@@ -9,40 +9,125 @@
 </head>
 <div class="site">
 <header>
-    
+    <div class="slogan">
 
+    <img class="back"src="../HTML-Challenge/Assets/hi.jpeg" alt="background">
+     
+  <div class="txt">  
+<h1 class="txt2">Enter Site Title</h1>
+<h4 class="txt3">Enter Site Slogan</h4>
+</div> 
+</div>
     <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
+        <a class="menu" href="#home">Home</a>
+        <a class="menu"  href="#Contact">Contact</a>
+        <a class="menu"  href="#New Page 1">New Page 1</a>
+        <a class="menu"  href="#New Page 2">New Page 2</a>
+        <a class="menu"  href="#New Page 3">New Page 3</a>
+        <a  href="#New Page 4">New Page 4</a>
       </div>
-    <h1>Enter text here</h1>
-</header>
-<body>
-    <h1>Gallery</h1>
-    <br>
-    <p><strong>Lorem Ipsum</strong> Ipsum is simply dummy text of the printing and typesetting industry. 
-         has been the <em>industry's standard</em>industry's standard dummy text ever <i>since the 1500s</i> , 
-        but also the<q>leap into electronic typesetting</q> , remaining essentially unchanged.</p>
-        <br>
-        <h2>Subscriptions</h2>
-        <br>
-        <h3>Services</h3>
-        <img src="../HTML-Challenge/Assets/hi.jpeg" alt="background">
+    </header>
+ 
+
+<body >
+    <!-- Flex body -->
+    <div class="flex">
+        <!-- Left Side -->
+    <div class="leftside" >
+        <h2 >Main Menu</h2>
         <ul>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
-            <li>Lorem</li>
+            <li><a href="#"> menu item 1</a></li>
+            <li><a href="#"> menu item 2</a></li>
+            <li><a href="#"> menu item 3</a></li>
+            <li><a href="#"> menu item 4</a></li>
+            <li><a href="#"> menu item 5</a></li>
+            <li><a href="#"> menu item 6</a></li>
+            <li><a href="#"> menu item 7</a></li>
+            <li><a href="#"> menu item 8</a></li>
           </ul>
+          <br>
+          <h2 >Block</h2>
+          <h2 >Enter block here</h2>
+          <p >LoremLoremLoremLoremLorem LoremLoremLoremLoremLorem LoremLoremLoremLoremLorem LoremLoremLoremLoremLorem LoremLoremLoremLoremLorem LoremLoremLoremLoremLorem </p>
+        </div>
+<!-- End Left Side -->
+       
+
+<!-- Right Side -->
+
+        <div class="rightside">
+    <h2 style="border-bottom:1px solid #97AAAD;padding-bottom: 15px;">Gallery</h2>
+    <br>
+    <p ><strong>Lorem Ipsum</strong> Ipsum is simply dummy text of the printing and typesetting industry. 
+         has been the <em>industry's standard</em>industry's standard dummy text ever <i>since the 1500s</i> , 
+        but also the<q>leap into electronic typesetting</q> , remaining essentially unchanged. Lorem Ipsum is simply 
+        dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+        It has survived not only five centuries, 
+         and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <br>
+        <!-- Inside Right -->
+        <div class="insideright">
+
+       <!-- Inside Right Left -->
+       <div class="insideright-left">
+        <h2>Subscriptions</h2>
+        <p>he printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+            ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            It has survived not only five centuries,</p>
+            <button>Read more</button>
+
+    </div>
+        <!-- End Inside Right LEft -->
+        <br>
+        <!-- Inside Right Right -->
+        <div class="insideright-right">
+        <h2>Services</h2>
+        <p>he printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+            ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            It has survived not only five centuries,</p>
+            <button>Read more</button>
+    </div>
+    <!-- End Inside Right RIght -->
+    </div>
+
+    <!-- End Inside Right -->
+    </div>
+<!-- End Right Side -->
+</div>
+<!-- End Flex Body -->
+
+<!-- Contact form -->
+<div class="container">
+<form >
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your Name.."><br><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your Email.."><br><br>
+    <label for="suggestions">Suggestions1</label>
+    <input type="radio" id="suggestions1" name="suggestions1" ><br><br>
+    <label for="suggestions">Suggestions2</label>
+    <input type="radio" id="suggestions2" name="suggestions2" ><br><br>
+    <label for="suggestions">Suggestions3</label>
+    <input type="radio" id="suggestions3" name="suggestions3" ><br><br>
+
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Drop us a message.." style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+</form>
+
+</div>
+
+
 </body>
-<footer>
+
+
+<footer >
  
     
 <p>@2022-<a href="https://codi.tech/">Codi.tech</a></p>
 </footer>
+
 </div>
 </html>
